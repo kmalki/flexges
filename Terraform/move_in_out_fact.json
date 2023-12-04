@@ -1,0 +1,41 @@
+[{
+    "name": "enterpriseId",
+    "type": "STRING",
+    "mode": "NULLABLE"
+},
+{
+    "name": "roomId",
+    "type": "STRING",
+    "mode": "NULLABLE"
+},
+{
+    "name": "actionDate",
+    "type": "TIMESTAMP",
+    "mode": "NULLABLE"
+},
+{
+    "name": "event",
+    "type": "STRING",
+    "mode": "NULLABLE"
+},
+{
+    "name": "email",
+    "type": "STRING",
+    "mode": "NULLABLE"
+},
+{
+    "name": "insertDate",
+    "type": "TIMESTAMP",
+    "mode": "NULLABLE"
+},
+{
+    "name": "roomName",
+    "type": "STRING",
+    "mode": "NULLABLE"
+},
+{
+    "name": "enterpriseName",
+    "type": "STRING",
+    "mode": "NULLABLE"
+}
+]

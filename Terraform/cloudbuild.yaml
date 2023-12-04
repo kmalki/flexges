@@ -1,0 +1,35 @@
+steps:
+  - id: 'tf init'
+    name: 'hashicorp/terraform:0.12.20'
+    entrypoint: 'sh'
+    args:
+      - '-c'
+      - terraform init
+  # [START tf-plan]
+  - id: 'tf plan'
+    name: 'hashicorp/terraform:0.12.20'
+    entrypoint: 'sh'
+    args:
+      - '-c'
+      - terraform plan
+  # [END tf-plan]
+
+  # [START tf-validate]
+  - id: 'tf validate'
+    name: 'hashicorp/terraform:0.12.20'
+    entrypoint: 'sh'
+    args:
+      - '-c'
+      - terraform validate
+  # [END tf-validate]
+
+  # [START tf-apply]
+  - id: 'tf apply'
+    name: 'hashicorp/terraform:0.12.20'
+    entrypoint: 'sh'
+    args:
+      - '-c'
+      - terraform apply -auto-approve
+  # [END tf-apply]
+
+timeout:  5400s
