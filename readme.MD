@@ -8,15 +8,15 @@ Le backend permet la partie CRUD de l’application. Les salles et utilisateurs 
 Kamel : J’ai travaillé sur le backend, ainsi que la partie GCP, dataflow, cloud function.
 
 Stack technique :
-Front end ReactJS
-Backend SpringBoot
-Cloud GCP
-Base de données :
-- Firebase
-- Datawarehouse BigQuery
-Google Cloud Function
-Google Dataflow streaming
-Terraform
+- Front end ReactJS
+- Backend SpringBoot
+- Cloud GCP
+- Base de données :
+  - Firebase
+  - Datawarehouse BigQuery
+- Google Cloud Function
+- Google Dataflow streaming
+- Terraform
 
 
 Vous trouverez dans ce dossier les codes sources (sans les fichiers de build) des différentes briques de notre projet.
